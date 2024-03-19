@@ -491,9 +491,15 @@ pre {
             </a>
             </div>
         </div>
+
+        <a>
+            <center>
+                <img class="centered" width="90%" src="images/introduction.png">
+            </center>
+        </a>
     </div>
 
-    <section id="abstract"/>
+    <section id="abstract">
         <hr>
         <h2>Abstract</h2>
         <div class="flex-row">
@@ -505,85 +511,55 @@ pre {
 
 
     <div class="section">
+        <h2>Method</h2>
+        <hr>
+        <h3>Fine-grained Language-motion Dataset Construction</h3>
+        <figure>
+            <a>
+                <img class="centered" width="100%" src="images/best_prompt.png">
+            </a>
+            <p>
+                Our 2-shot prompt instructs LLM to generate fine-grained descriptions while summarizing them into pseudo-codes. We find this method greatly enhances the stability of LLM's generation of new descriptions.
+                With GPT-3.5-turbo-0301, we use the selected prompt to remake <a href="https://github.com/EricGuo5513/HumanML3D">HumanML3D</a> into a high-quality language-motion dataset specializing in fine-grained texts, <b>FineHumanML3D</b>. To the best of our knowledge, this is the first large-scale language-motion dataset with fine-grained textual descriptions.
+            </p>
+        </figure>
+        <br>
+        <h3>FineMotionDiffuse Text2motion Model</h3>
+        <figure>
+            <a>
+                <img class="centered" width="100%" src="images/pipeline.png">
+            </a>
+            <p>
+                We design a new text2motion model, <b>FineMotionDiffuse</b>, which is composed of a fine-text encoder, a step-aware self-attention block, a coarse-text encoder, a fine-coarse cross-attention block and a diffusion block, to conduct training and inference on FineHumanML3D.
+            </p>
+        </figure>
+    </div>
+
+    <div class="section">
         <h2>Results</h2>
         <hr>
         <p>
-            Existing approaches towards improving language models have primarily focused on improving the performance of a
-            single language generator. We illustrate how we may treat different instances of the same language models as a
-            "multiagent society", where individual language model generate and critique the language generations of other instances of the language model.  We find that the final answer generated after such a procedure is both more factually accurate and solves reasoning questions more accurately.  We illustrate below the quantitative difference between multiagent debate and single agent generation on  different domains in reasoning and factual validity.
+            TBA...    
         </p>
         <figure>
             <a>
-                <img class="centered" width="100%" src="img/accuracy_small.png"> 
+                <img class="centered" width="100%" src=""> 
             </a>
-            <p class="caption-up">
-                <b>Multiagent Debate Improves Reasoning and Factual Accuracy.</b> Accuracy of traditional inference and our multi-agent debate over six benchmarks (chess move optimality reported as a normalized score) <br>
         </figure>
     </div>
 
     <div class="section">
-        <h2>Performance with More Agents and Rounds of Debate</h2>
+        <h2>Citation</h2>
         <hr>
-        <p>
-           Throughout the experiments in the paper, we used a total of 3 language models agents which debate for a total of two arounds, due to computational cost. However, the underlying performance of multiagent debate can be substantially improved by either using more agents or by having more of rounds of debate. Below, we report the accuracy of solving arithmetic expressions as these individual factors are varied.
-        </p>
-        <figure>
-            <a>
-                <img class="centered" width="95%" src="img/agent_round.png"> 
-            </a>
-            <p class="caption-right">
-                <b>(a) Performance with Increased Agents.</b> Arithmetic performance improves as the number of underlying agents involved in debate increases. <b>(b) Performance with Increased Rounds.</b> Arithmetic performance improves as the number of rounds of underlying debate increases. <br>
-        </figure>
+        <pre>TBA...</pre>
+        
     </div>
-
-    <div class="section">
-        <h2>Debate Between chatGPT and Bard</h2>
-        <hr>
-        <p>
-           While we mainly study multiagent debate across multiple instances of the same language model, multiagent debate
-           can also be used to combine different lanuage models together. This enables the strengths of one model to enable
-           better performance in another. Below, we illustrate how a combination of both ChatGPT and Bard can be used together
-           to solve a difficult Grade School Math problem.
-        </p>
-    </div>
-        <figure>
-            <a>
-                <center>
-                <img class="centered" width="90%" src="img/gpt_bard.png"> 
-                </center>
-            </a>
-            <p class="caption">
-                <b>Debate Between ChatGPT and Bard.</b> Illustration of debate between different models. While both models generate incorrect responses to the initial GSM8K problem, debate between the models enables them to generate the correct final answer.<br>
-        </figure>
-    </div>
-
-    <div class="section">
-        <h2>Paper</h2>
-        <hr>
-        <p>
-        </p>
-        <div>
-            <div class="list-group">
-                <a href=""
-                   class="list-group-item">
-                    <img src="img/paper_thumbnail.png" style="width:100%; margin-right:-20px; margin-top:-10px;">
-                </a>
-            </div>
-        </div>
-    </div>
-
-        <div class="section">
-            <h2>Our Related Projects</h2>
-            <hr>
-            <p>
-                Check out our related projects on combining and composing different models! A full list can be found <a href="https://energy-based-model.github.io/Energy-based-Model-MIT/">here</a>!
-            </p>
-
+    <br>
     <hr>
 
-    <section>
-        This webpage template was recycled from <a href='https://nv-tlabs.github.io/LION/'>here</a>.
-    </section>
+    <div>
+        We follow <a href='https://nv-tlabs.github.io/LION/'>LION</a> to create this project page.
+    </div>
 
 </div>
 
