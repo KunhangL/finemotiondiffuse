@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-    <img width="750" src="images/introduction.png"/>
+    <img width="750" src="images/introduction.jpg"/>
 </p>
 
 ## FineHumanML3D Textual Data
