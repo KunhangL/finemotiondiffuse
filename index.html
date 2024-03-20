@@ -485,7 +485,7 @@ pre {
                 <span class="material-icons"> description </span> 
                  Paper
             </a>
-            <a class="paper-btn" href="">
+            <a class="paper-btn" href="https://github.com/KunhangL/finemotiondiffuse/tree/main/shared_data">
                 <span class="material-icons"> dataset </span>
                 Data
             </a>
@@ -540,13 +540,15 @@ pre {
         <h2>Cases</h2>
         <hr>
         <h3>Spatial Compostionality</h3>
+            The model's ability to simultaneously perform two basic motions.
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[arms1].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A man raises both arms above his head.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man begins in a standing position with his arms at his sides.&lt;/step 1: beginning pose&gt; 
                     &lt;step 2: raise arms&gt;He lifts both arms up simultaneously, his hands moving upwards towards the ceiling. His shoulders and elbows straighten as his arms reach their maximum height straight above his head.&lt;/step 2: raise arms&gt; 
@@ -557,10 +559,11 @@ pre {
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[squat2].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A person slightly squats.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man begins standing upright with his feet hip-width apart and his arms relaxed at his sides. &lt;/step 1: beginning pose&gt; 
                     &lt;step 2: slight squat&gt;He bends his knees slightly, lowering his hips and shifting his weight slightly towards his heels. His torso remains upright, and his feet remain flat on the ground. &lt;/step 2: slight squat&gt; 
@@ -571,10 +574,11 @@ pre {
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[arms1+squat2].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A man slightly squats with both arms raised above head.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man begins in a standing position with his feet shoulder-width apart and his arms at his sides.&lt;/step 1: beginning pose&gt; 
                     &lt;step 2: squat&gt;He slightly squats down, bending his knees and lowering his hips a few inches towards the ground. His torso remains upright and his arms are raised straight above his head, palms facing each other.&lt;/step 2: squat&gt; 
@@ -584,14 +588,15 @@ pre {
 
         <br>
         <h3>Chronological Compostionality</h3>
-
+            The model's ability to perform two basic motions in a temporally sequential manner.
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[walk].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A man walks.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man stands upright with his feet together.&lt;/step 1: beginning pose&gt; 
                     &lt;step 2: lift foot&gt;He lifts his left foot off the ground and swings it forward while simultaneously shifting his weight onto his right foot.&lt;/step 2: lift foot&gt; 
@@ -604,10 +609,11 @@ pre {
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[kick].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A man kicks with one leg.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man begins standing with his feet shoulder-width apart and his arms at his sides.&lt;/step 1: beginning pose&gt; 
                     &lt;step 2: lift leg&gt;He lifts one leg, bending at the knee and bringing his foot up towards his buttocks.&lt;/step 2: lift leg&gt; 
@@ -619,10 +625,11 @@ pre {
             <div class="row vspace-top">
                 <div class="col-sm-5">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="" controls loop>
-                        <source src="images/test.mp4" type="video/mp4">
+                        <source src="images/[walk+kick].mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-7">
+                    <p class="caption">
                     <b>Coarse-grained:</b> A man walks, then kicks with one leg.<br>
                     <b>Fine-grained:</b> &lt;step 1: beginning pose&gt;The man begins in a standing position with his feet together and his arms at his sides.&lt;/step 1: beginning pose&gt; 
                     &lt;step 2: taking a step&gt;He lifts his right foot and takes a step forward with it, placing it on the ground in front of him.&lt;/step 2: taking a step&gt; 

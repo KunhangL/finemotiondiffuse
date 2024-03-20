@@ -1,0 +1,3 @@
+# Introduction
+The zip file `fine-grained_texts.zip` stores fine-grained textual descriptions generated from <a href="https://github.com/EricGuo5513/HumanML3D">HumanML3D</a> with our prompt on GPT-3.5-turbo-0301. Due to copyright issues, you need to follow the instructions of HumanML3D to prepare motion data by yourself.<br>
+**!!!NOTE!!!** When you use our fine-grained descriptions, please bear in mind that our fine-grained texts do not cover all the motions in HumanML3D, for we deleted some texts due to problematic responses from GPT-3.5-turbo-0301.
