@@ -34,3 +34,19 @@ The data entries look like below. Each `.txt` file corresponds to one HumanML3D 
 When you use these fine-grained descriptions, please bear in mind that our fine-grained texts do not correspond to all the coarse-grained descriptions in HumanML3D, for we deleted some texts due to problematic responses from GPT-3.5-turbo-0301. In such situationns, we simply leave the corresponding lines in the `.txt` files blank.<br>
 
 For example, while the original `010146.txt` in HumanML3D has two coarse-grained descriptions in two lines, the `010146.txt` in FineHumanML3D also has two lines, but the first line is left blank because GPT-3.5-turbo-0301 did not return valid responses, resulting in only one fine-grained description for this motion.
+
+## Citation
+If you are using the FineHumanML3D dataset, please consider citing both our paper and the HumanML3D paper:
+```
+TBA...
+```
+```
+@InProceedings{Guo_2022_CVPR,
+    author    = {Guo, Chuan and Zou, Shihao and Zuo, Xinxin and Wang, Sen and Ji, Wei and Li, Xingyu and Cheng, Li},
+    title     = {Generating Diverse and Natural 3D Human Motions From Text},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {5152-5161}
+}
+```
