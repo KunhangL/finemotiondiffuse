@@ -3,7 +3,7 @@
   <a href="https://kunhangl.github.io/" target="_blank">Kunhang&nbsp;Li</a> &emsp; 
   <a href="https://sites.google.com/site/ysfeng/home" target="_blank">Yansong&nbsp;Feng</a> &emsp;
   <br> <br>
-  <a href="" target="_blank">Paper</a> &emsp;
+  <a href="http://arxiv.org/abs/2403.13518" target="_blank">Paper</a> &emsp;
   <a href="https://kunhangl.github.io/finemotiondiffuse/" target="_blank">Project&nbsp;Page</a>
 </div>
 
@@ -31,7 +31,7 @@ The data entries look like below. Each `.txt` file corresponds to one HumanML3D 
 ├── ...
 ```
 ### !!! NOTE !!! ###
-When you use these fine-grained descriptions, please bear in mind that our fine-grained texts do not correspond to all the coarse-grained descriptions in HumanML3D, for we deleted some texts due to problematic responses from GPT-3.5-turbo-0301. In such situationns, we simply leave the corresponding lines in the `.txt` files blank.<br>
+When you use these fine-grained descriptions, please bear in mind that our fine-grained texts do not correspond to all the coarse-grained descriptions in HumanML3D, for we deleted some texts due to problematic responses from GPT-3.5-turbo-0301. In such situations, we simply leave the corresponding lines in the `.txt` files blank.<br>
 
 For example, while the original `010146.txt` in HumanML3D has two coarse-grained descriptions in two lines, the `010146.txt` in FineHumanML3D also has two lines, but the first line is left blank because GPT-3.5-turbo-0301 did not return valid responses, resulting in only one fine-grained description for this motion.
 
