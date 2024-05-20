@@ -38,13 +38,16 @@ For example, while the original `010146.txt` in HumanML3D has two coarse-grained
 ## Citation
 If you are using the FineHumanML3D dataset, please consider citing both our paper and the HumanML3D paper:
 ```
-@misc{li2024motion,
-    title={Motion Generation from Fine-grained Textual Descriptions}, 
-    author={Kunhang Li and Yansong Feng},
-    year={2024},
-    eprint={2403.13518},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
+@inproceedings{li-feng-2024-motion-generation,
+    title = "Motion Generation from Fine-grained Textual Descriptions",
+    author = "Li, Kunhang and Feng, Yansong",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1016",
+    pages = "11625--11641"
 }
 ```
 ```
