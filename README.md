@@ -4,7 +4,7 @@
   <a href="https://sites.google.com/site/ysfeng/home" target="_blank">Yansong&nbsp;Feng</a> &emsp;
   <br> <br>
   <a href="http://arxiv.org/abs/2403.13518" target="_blank">Arxiv</a> &emsp;
-  <a href="https://aclanthology.org/2024.lrec-main.1016/" target="_blank">Arxiv</a> &emsp;
+  <a href="https://aclanthology.org/2024.lrec-main.1016/" target="_blank">Paper</a> &emsp;
   <a href="https://kunhangl.github.io/finemotiondiffuse/" target="_blank">Project&nbsp;Page</a>
 </div>
 
